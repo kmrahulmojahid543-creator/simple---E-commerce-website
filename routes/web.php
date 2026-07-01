@@ -39,7 +39,7 @@ Route::controller(CartController::class)->group(function(){
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::middleware(['auth'])->group(function () {
     // Shop
     Route::controller(ShopController::class)->group(function() {
