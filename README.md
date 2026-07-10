@@ -2,7 +2,7 @@
 
 # 🛍️ Laravel E-commerce Project
 
-> A powerful and responsive E-commerce platform built with **Laravel 9** and **Blade Template**.
+> A powerful and responsive E-commerce platform built with **Laravel 10** and **Blade Template**.
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Component | Specification |
 | :--- | :--- |
-| **Framework** | Laravel ^9.11 |
+| **Framework** | Laravel ^10.11 |
 | **Language** | PHP ^8.0.2 (Tested on 8.2.12) |
 | **Database** | MariaDB / MySQL (10.4.32) |
 | **Auth System** | Laravel UI (Bootstrap/Vue) |
